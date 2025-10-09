@@ -1,0 +1,49 @@
+/*estructura de un selector css:
+    nombre_del_seletor {
+        propiedad1: valor;
+        propiedad2: valor;
+        propiedad3: valor;
+        ...
+        propiedadN: valor;
+    }
+*/
+/* h1: es un selector css de etiqueta */
+h1 {
+    /* propiedades css de la fuente/letra*/
+    color: blue; /* color */
+    font-weight: bold; /* negrita */
+    font-size: 50px; /* tamaño */
+    font-style: oblique; /* estilo */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    /* propiedades css del párrafo */
+    text-align: center; /* parrafo */
+
+
+}
+p {
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+    /* margin: 20px 50px 30px 10px; margen superior, derecho, inferior e izquierdo */
+    /* margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px; */
+    /* border: 5px dashed blue; */
+    /* padding: 10px; */
+    margin: 20px;
+    margin-right: 0px;
+    border-right: 0px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.5);
+    color: aliceblue;
+}
