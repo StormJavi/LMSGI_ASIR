@@ -28,7 +28,7 @@
     </header>
     <main>
         <h2>Lista de Productos que provienen de la API (BD)</h2>
-        <section>
+        <section id="catalogo">
             <article>
                 <p id="badge">Envío gratis</p>
                 <figure>
@@ -170,3 +170,20 @@
     </footer>
 </body>
 </html>
+<script>
+    fetch('data/productos.json')
+        .then(response => response.json())
+        .then(productos => {
+            const contenedor = document.getElementById('catalogo');
+            const card = document.createElement('article');
+            contenedor.innerHTML = `Catalogo de Productos`;
+            card.innerHTML = 
+            `
+            <p class="badge">Envío gratis</p>
+            <figure>
+                <img src="img/productos/movil.png" alt="Producto 1" />
+            </figure>
+            `;
+            contenedor.appendChild(card)
+        })
+</script>
