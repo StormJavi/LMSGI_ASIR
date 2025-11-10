@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 300vh;
+}
+
+header {
+    background-color: black;
+    /* flex-basis: 5%; */
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+header div#menu {
+    color: white;
+    flex-basis: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header #menu i {
+    color: white;
+    font-size: 30px;
+}
+header figure {
+    color: white;
+    flex-basis: 20%;
+    height: 100%;
+}
+header figure img {
+    height: 100%;
+}
+header form {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+header form input {
+    background-color: palegoldenrod;
+    padding: 6px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header nav {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header nav a:hover {
+    color: rgb(218, 253, 111);
+}
+header #carrito {
+    color: white;
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header #carrito i {
+    font-size: 25px;
+    color: green
+}
+main {
+    background-color: white;
+    flex-basis: 65%;
+    position: relative;
+    border: solid 1px black;
+}
+main section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+main section article{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-basis: 20%;
+}
+main section article p{
+    color: red;
+}
+main section article .badge{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+main section article figure{
+    height: 150px;
+    
+}
+main section article figure img{
+    height: 100%;
+
+}
+footer {
+    background-color: black;
+    flex-basis: 30%;
+    /* height: 20vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+footer nav#sociales{
+    border: 1px solid black;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+}
+footer nav#sociales a{
+    text-decoration: none;
+    background-color: lightgreen;
+    display:inline-block;
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 7px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+footer nav#sociales a:hover{
+    transform: translate(0px, -10px);
+    transform: rotate(360deg);
+}
+footer nav#sociales a i{
+    font-size: 30px;
+    color: white;
+}
+footer div#subscribete{
+    border: 1px solid black;
+    flex-basis: 50%;
+}
+footer article {
+    border: 1px solid black;
+    flex-basis: 33.33%;
+    padding-top: 20px;
+}
+footer article h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+footer article nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+footer article nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    height: 30px;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+footer article nav a i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+footer article nav a span {
+    font-size: 18px;
+}
