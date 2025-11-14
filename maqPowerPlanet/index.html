@@ -30,18 +30,31 @@
         <h2>Lista de Productos que provienen de la API (BD)</h2>
         <section id="catalogo">
             <article>
-                <p id="badge">Envío gratis</p>
+                <p class="badge">Envío gratis</p>
                 <figure>
                     <img src="img/productos/movil.png" alt="Producto 1" />
                 </figure>
                 <p class="nombre">Samsung galaxy tab S10+</p>
                 <p class="features">12.4'' 12GB/512GB 5G Plata</p>
-                <p class="valoraciones">Valoracions/opiniones</p>
+                <p class="valoraciones">
+                    <span class="estrella">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="valoracion">44</span>
+                    <span class="opiniones">(7 opiniones)</span>
+                </p>
                 <div>
-                    <span>Descuento</span>
-                    <span>Precio</span>
+                    <span class="descuento">-15%</span>
+                    <span class="precios">
+                        <span class="pvr">2350€</span>
+                        <span class="pvp">2000€</span>
+                    </span>
                 </div>
-                <p id="stock">Stock</p>
+                <p class="stock">Stock</p>
             </article>
         </section>
     </main>
@@ -171,19 +184,29 @@
 </body>
 </html>
 <script>
-    fetch('data/productos.json')
+    fetch('js/productos.json')
         .then(response => response.json())
         .then(productos => {
             const contenedor = document.getElementById('catalogo');
-            const card = document.createElement('article');
-            contenedor.innerHTML = `Catalogo de Productos`;
-            card.innerHTML = 
-            `
-            <p class="badge">Envío gratis</p>
-            <figure>
-                <img src="img/productos/movil.png" alt="Producto 1" />
-            </figure>
-            `;
-            contenedor.appendChild(card)
+            productos.forEach (producto => {
+                const card = document.createElement('article');
+                card.innerHTML = 
+                `
+                <p class="badge">Envío gratis</p>
+                <figure>
+                    <img src="img/productos/movil.png" alt="Producto 1" />
+                </figure>
+                <p class="nombre">${producto.nombre}</p>
+                <p class="features">
+                    <span>${producto.caracteristicas.cpu}</span>
+                    <span>${producto.caracteristicas.ram}</span>
+                    <span>${producto.caracteristicas.disco}</span>
+                </p>
+                `;
+                contenedor.appendChild(card)
+                });
+            
+            // contenedor.innerHTML = `Catalogo de Productos`;
+
         })
 </script>
