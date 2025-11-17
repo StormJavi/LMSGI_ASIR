@@ -172,6 +172,10 @@ main section article .nombre{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+main section article .features{
+    margin-top: 3px;
+    
+}
 main section article p {
     border: 0px solid black;
     display: flex;
