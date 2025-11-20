@@ -250,7 +250,6 @@ footer nav#sociales{
     justify-content: start;
     align-items: center;
     padding-left: 30px;
-    color: white;
 }
 footer nav#sociales a { /* estado reposo fotograma */
     text-decoration: none;
