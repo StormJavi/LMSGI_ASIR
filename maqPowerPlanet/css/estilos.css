@@ -53,11 +53,11 @@ header form{
     justify-content: center;
 }
 header form input{
-   background-color:antiquewhite;
+   background-color:grey;
     padding: 6px;
     border-radius: 15px;
     font-size: 20px;
-    color: blue;
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header nav{
@@ -70,7 +70,7 @@ header nav{
     align-items: center; /* alineacion en eje secundario */
 }
 header nav a{
-    display: none;
+    display: flex;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -92,7 +92,6 @@ header #carrito{
 }
 header #carrito i{
     font-size: 25px;
-    color: green;
 }
 /*
 ---elementos de linea: img, a, span, i input
@@ -104,6 +103,9 @@ main{
     /* height: 75vh; */
     
     border: 2px solid black;
+}
+main h2{
+    margin: 10px;
 }
 main section{ /* contenedor  */
     display: flex;
@@ -248,18 +250,20 @@ footer nav#sociales{
     justify-content: start;
     align-items: center;
     padding-left: 30px;
+    color: white;
 }
 footer nav#sociales a { /* estado reposo fotograma */
     text-decoration: none;
     border: 0px solid black; 
-    background-color: lightgreen;
+    background-color: rgb(218, 253, 111);
     /* elemento en linea pero con propiedades de bloque */
     display: inline-block;
     
     width: 50px;
     height: 50px;
     border-radius:50px;
-    margin-right: 7px;;
+    margin-right: 7px;
+    margin-top: 15px;
     
     display: flex;
     flex-direction: column;
@@ -321,4 +325,3 @@ footer article nav a i{
 footer article nav a span {
     font-size: 18px;
 }
-

@@ -194,7 +194,7 @@
                 `
                 <p class="badge">Envío gratis</p>
                 <figure>
-                    <img src="img/productos/movil.png" alt="Producto 1" />
+                    <img src="${producto.imagen}" alt="Producto 1" />
                 </figure>
                 <p class="nombre">${producto.nombre}</p>
                 <p class="features">
@@ -210,6 +210,17 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </span>
+                    <span class="valoracion">${producto.valoracion}</span>
+                    <span class="opiniones">(${producto.opiniones} opiniones)</span>
+                </p>
+                <div>
+                    <span class="descuento">-${producto.descuento}%</span>
+                    <span class="precios">
+                        <span class="pvr">${producto.precioOriginal}€</span>
+                        <span class="pvp">${producto.precio}€</span>
+                    </span>
+                </div>
+                <p class="stock">Stock</p>
                 `;
                 contenedor.appendChild(card)
                 });

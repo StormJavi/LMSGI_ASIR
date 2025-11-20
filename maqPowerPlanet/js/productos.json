@@ -5,9 +5,9 @@
     "precio": 34.99,
     "precioOriginal": 499.99,
     "descuento": 50,
-    "imagen": "https://images.unsplash.com/photo-1606813902915-d23e25f5d2c1?w=500&auto=format&fit=crop",
-    "valoracion": 5.4,
-    "opiniones": 0,
+    "imagen": "https://storage.googleapis.com/device-images-prod/P0555TPMC/P0555TPMC-2-large.jpg?w=60",
+    "valoracion": 5,
+    "opiniones": 20,
     "caracteristicas": {
       "cpu": "Chipset Realtek RTL8762C",
       "ram": "1024 MB",
@@ -20,7 +20,7 @@
     "precio": 799.00,
     "precioOriginal": 959.00,
     "descuento": 17,
-    "imagen": "https://images.unsplash.com/photo-1603898037225-1be31a016f8e?w=500&auto=format&fit=crop",
+    "imagen": "https://www.powerplanetonline.com/cdnassets/apple_iphone_16_azul_01_l.jpg",
     "valoracion": 5,
     "opiniones": 34,
     "caracteristicas": {
@@ -35,7 +35,7 @@
     "precio": 999.00,
     "precioOriginal": 1180.00,
     "descuento": 15,
-    "imagen": "https://images.unsplash.com/photo-1610901357838-2e7b504fddf4?w=500&auto=format&fit=crop",
+    "imagen": "https://media.ldlc.com/r1600/ld/products/00/06/20/43/LD0006204369.jpg",
     "valoracion": 4.9,
     "opiniones": 87,
     "caracteristicas": {
@@ -50,7 +50,7 @@
     "precio": 89.99,
     "precioOriginal": 119.99,
     "descuento": 25,
-    "imagen": "https://images.unsplash.com/photo-1606811841036-d8c7a9c5d3f3?w=500&auto=format&fit=crop",
+    "imagen": "https://m.media-amazon.com/images/I/510PgU9hdZL._AC_UF894,1000_QL80_.jpg",
     "valoracion": 4.6,
     "opiniones": 54,
     "caracteristicas": {
@@ -65,7 +65,7 @@
     "precio": 299.99,
     "precioOriginal": 333.00,
     "descuento": 10,
-    "imagen": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&auto=format&fit=crop",
+    "imagen": "https://m.media-amazon.com/images/I/51BJw+RHx8L.jpg",
     "valoracion": 4.5,
     "opiniones": 120,
     "caracteristicas": {
@@ -80,7 +80,7 @@
     "precio": 269.00,
     "precioOriginal": 329.00,
     "descuento": 20,
-    "imagen": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=500&auto=format&fit=crop",
+    "imagen": "https://m.media-amazon.com/images/I/71lG7br7k1L._AC_UF1000,1000_QL80_.jpg",
     "valoracion": 4.8,
     "opiniones": 102,
     "caracteristicas": {
@@ -95,7 +95,7 @@
     "precio": 119.00,
     "precioOriginal": 169.00,
     "descuento": 30,
-    "imagen": "https://images.unsplash.com/photo-1585386959984-a41552231693?w=500&auto=format&fit=crop",
+    "imagen": "https://img.pccomponentes.com/articles/61/616492/2125-amazfit-gtr-3-pro-reloj-smartwatch-negro-7df16a67-b38e-4435-a571-8a903c2ae0f3.jpg",
     "valoracion": 4.5,
     "opiniones": 76,
     "caracteristicas": {
@@ -110,7 +110,7 @@
     "precio": 1199.00,
     "precioOriginal": 1299.00,
     "descuento": 8,
-    "imagen": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&auto=format&fit=crop",
+    "imagen": "https://imageservice.asgoodasnew.com/1000/19628/1674/title-0000.jpg",
     "valoracion": 4.9,
     "opiniones": 210,
     "caracteristicas": {
@@ -125,7 +125,7 @@
     "precio": 179.00,
     "precioOriginal": 239.00,
     "descuento": 25,
-    "imagen": "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=500&auto=format&fit=crop",
+    "imagen": "https://m.media-amazon.com/images/I/81L4FpeS3VL._AC_UF894,1000_QL80_.jpg",
     "valoracion": 4.7,
     "opiniones": 42,
     "caracteristicas": {
@@ -140,7 +140,7 @@
     "precio": 129.99,
     "precioOriginal": 159.99,
     "descuento": 18,
-    "imagen": "https://images.unsplash.com/photo-1585386959984-a41552231693?w=500&auto=format&fit=crop",
+    "imagen": "https://visanta.com/58467-home_default/altavoz-jbl-charge-5-gris.jpg",
     "valoracion": 4.6,
     "opiniones": 89,
     "caracteristicas": {
@@ -149,154 +149,19 @@
       "disco": "No aplica"
     }
   },
-   { 
-    "id": 1,
-    "nombre": "Xiamoi 15t",
-    "precio": 34.99,
-    "precioOriginal": 499.99,
-    "descuento": 50,
-    "imagen": "https://images.unsplash.com/photo-1606813902915-d23e25f5d2c1?w=500&auto=format&fit=crop",
-    "valoracion": 5.4,
-    "opiniones": 0,
-    "caracteristicas": {
-      "cpu": "Chipset Realtek RTL8762C",
-      "ram": "1024 MB",
-      "disco": "512 MB"
-    }
-  },
   {
-    "id": 2,
-    "nombre": "iPhone 16 5G 128GB Azul",
-    "precio": 799.00,
-    "precioOriginal": 959.00,
-    "descuento": 17,
-    "imagen": "https://images.unsplash.com/photo-1603898037225-1be31a016f8e?w=500&auto=format&fit=crop",
-    "valoracion": 5,
-    "opiniones": 34,
-    "caracteristicas": {
-      "cpu": "Apple A18 Bionic",
-      "ram": "8 GB",
-      "disco": "128 GB"
-    }
-  },
-  {
-    "id": 3,
-    "nombre": "Samsung Galaxy S24 Ultra",
-    "precio": 999.00,
-    "precioOriginal": 1180.00,
-    "descuento": 15,
-    "imagen": "https://images.unsplash.com/photo-1610901357838-2e7b504fddf4?w=500&auto=format&fit=crop",
-    "valoracion": 4.9,
-    "opiniones": 87,
-    "caracteristicas": {
-      "cpu": "Snapdragon 8 Gen 3",
-      "ram": "12 GB",
-      "disco": "256 GB"
-    }
-  },
-  {
-    "id": 4,
-    "nombre": "Huawei Watch Fit 2",
-    "precio": 89.99,
-    "precioOriginal": 119.99,
-    "descuento": 25,
-    "imagen": "https://images.unsplash.com/photo-1606811841036-d8c7a9c5d3f3?w=500&auto=format&fit=crop",
-    "valoracion": 4.6,
-    "opiniones": 54,
-    "caracteristicas": {
-      "cpu": "HiSilicon Kirin A1",
-      "ram": "128 MB",
-      "disco": "4 GB"
-    }
-  },
-  {
-    "id": 5,
-    "nombre": "Xiaomi Redmi Note 13 Pro",
-    "precio": 299.99,
-    "precioOriginal": 333.00,
-    "descuento": 10,
-    "imagen": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&auto=format&fit=crop",
-    "valoracion": 4.5,
-    "opiniones": 120,
-    "caracteristicas": {
-      "cpu": "MediaTek Helio G99 Ultra",
-      "ram": "8 GB",
-      "disco": "256 GB"
-    }
-  },
-  {
-    "id": 6,
-    "nombre": "Apple Watch SE 2",
-    "precio": 269.00,
-    "precioOriginal": 329.00,
-    "descuento": 20,
-    "imagen": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=500&auto=format&fit=crop",
-    "valoracion": 4.8,
-    "opiniones": 102,
-    "caracteristicas": {
-      "cpu": "Apple S8 SiP",
-      "ram": "1 GB",
-      "disco": "32 GB"
-    }
-  },
-  {
-    "id": 7,
-    "nombre": "Amazfit GTR 3",
-    "precio": 119.00,
-    "precioOriginal": 169.00,
-    "descuento": 30,
-    "imagen": "https://images.unsplash.com/photo-1585386959984-a41552231693?w=500&auto=format&fit=crop",
-    "valoracion": 4.5,
-    "opiniones": 76,
-    "caracteristicas": {
-      "cpu": "Zepp OS Dual-Core",
-      "ram": "512 MB",
-      "disco": "4 GB"
-    }
-  },
-  {
-    "id": 8,
-    "nombre": "MacBook Air M2",
-    "precio": 1199.00,
-    "precioOriginal": 1299.00,
+    "id": 11,
+    "nombre": "Realme C11 (2021)",
+    "precio": 69.99,
+    "precioOriginal": 79.99,
     "descuento": 8,
-    "imagen": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&auto=format&fit=crop",
-    "valoracion": 4.9,
-    "opiniones": 210,
-    "caracteristicas": {
-      "cpu": "Apple M2",
-      "ram": "8 GB",
-      "disco": "512 GB SSD"
-    }
-  },
-  {
-    "id": 9,
-    "nombre": "Razer BlackWidow V4",
-    "precio": 179.00,
-    "precioOriginal": 239.00,
-    "descuento": 25,
-    "imagen": "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?w=500&auto=format&fit=crop",
-    "valoracion": 4.7,
-    "opiniones": 42,
-    "caracteristicas": {
-      "cpu": "Microcontrolador Razer v3",
-      "ram": "1 MB",
-      "disco": "Interno no aplicable"
-    }
-  },
-  {
-    "id": 10,
-    "nombre": "JBL Charge 5",
-    "precio": 129.99,
-    "precioOriginal": 159.99,
-    "descuento": 18,
-    "imagen": "https://images.unsplash.com/photo-1585386959984-a41552231693?w=500&auto=format&fit=crop",
+    "imagen": "https://media.game.es/COVERV2/3D_L/199/199148.png",
     "valoracion": 4.6,
     "opiniones": 89,
     "caracteristicas": {
-      "cpu": "DSP Qualcomm QCC5124",
-      "ram": "256 MB",
-      "disco": "No aplica"
+      "cpu": "Android 11",
+      "ram": "4 GB",
+      "disco": "64 GB"
     }
   }
 ]
