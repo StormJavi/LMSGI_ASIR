@@ -28,7 +28,7 @@
             </div>
     </header>
     <main>
-        <nav>
+        <nav id="inicio">
             <a href="#"><i class="fa-solid fa-house"></i></a>
             >
             <a href="#">TV y video</a>
@@ -39,12 +39,18 @@
         </nav>
         
         <figure class="galeria">
-            <p>galeria</p>
-            <!-- <img src="img/productos/television.jpg" alt="Producto"> -->
+            <img src="img/productos/television.jpg" alt="Vista 1">
+            <img src="img/productos/television_2.jpg" alt="Vista 2">
+            <img src="img/productos/television_3.jpg" alt="Vista 3">
+            <img src="img/productos/television_4.jpg" alt="Vista 4">
+            <img src="img/productos/energia_television.jpg" alt="Vista 4">
         </figure>
-        <figure class="imagen">
-            <p>imagen</p>
-            <!-- <img src="img/productos/television.jpg" alt="Producto"> -->
+        <figure id="portada">
+            <div class="badges">
+                <div class="badge-friday">FRESH FRIDAY</div>
+                <div class="badge-envio">Envío gratis</div>
+            </div>
+            <img src="img/productos/television.jpg">
         </figure>
         <section class="info">
             <p>Información</p>
@@ -52,3 +58,24 @@
     </main>
 </body>
 </html>
+
+<script>
+    
+
+     fetch('./data/producto.json')
+        .then(response => response.json())
+        .then ( producto => {
+            console.log("-1->",producto)
+            console.log("-2->", producto.nombre, producto.precio)
+           
+           
+            // aActualiza nombre
+            document.getElementById('nombre').textContent = producto.nombre;
+            document.getElementById('dto').textContent = `- ${producto.descuento}  %`;
+            
+            //cambiar portada
+            document.getElementById('foto').setAttribute("src", producto.imagen);
+        })
+
+       
+</script>

@@ -53,10 +53,11 @@ header form{
     justify-content: center;
 }
 header form input{
+   background-color:antiquewhite;
     padding: 6px;
     border-radius: 15px;
     font-size: 20px;
-    color: black;
+    color: blue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header nav{
@@ -69,7 +70,7 @@ header nav{
     align-items: center; /* alineacion en eje secundario */
 }
 header nav a{
-    display: flex;
+    display: none;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -91,33 +92,207 @@ header #carrito{
 }
 header #carrito i{
     font-size: 25px;
+    color: green;
 }
-/*
----elementos de linea: img, a, span, i input
----elemetnos de bloques: el resto de etiquetas de este codigo
-*/
-main{
+main {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
-}
-main nav{
-    flex-basis: 100%;
-    border: 1px solid black;
-}
     
-.galeria{
+    justify-content: center;
+
+}
+
+main nav#inicio{
+    border: 1px solid black;
+    flex-basis: 100% ;
+    order:1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    height: 5vh;
+    margin-bottom: 30px;
+}
+
+main figure#galeria{
+    border: 1px solid black;
     flex-basis: 15%;
-    border: 1px solid black;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
 }
-
-.imagen{
+main figure img {
+    width: 30%; 
+    object-fit: cover; 
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main figure#imagen{
+    border: 1px solid black;
     flex-basis: 35%;
+    order:3;
+    flex: 1;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+main figure#portada img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+}
+main figure#portada .badges{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main figure#portada .badge-friday{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #ff6b9d, #c471ed);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #7fff00;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+main figure#portada .badge-envio{
+    background-color: #ff4081;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    width: fit-content;
+} 
+main article#caracteristicas{
     border: 1px solid black;
+    flex-basis: 50%;
+    order: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.info{
-    flex-basis: 50%;
-    border: 1px solid black;
+main article#caracteristicas h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
 }
+main article#caracteristicas .valoraciones{
+    border: 0px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+main article#caracteristicas .valoraciones .fa-solid{
+    color:yellow
+}
+main article#caracteristicas .valoraciones .star i{
+    /* color: yellow;
+    font-size: 10px; */
+}
+main article#caracteristicas .descuento {
+    color: red;
+    font-size: 20px;
+}
+
+main article#caracteristicas .price-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+main article#caracteristicas .discount-badge {
+    background-color: #ff1744;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+main article#caracteristicas .current-price {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+main article#caracteristicas .recommended-price {
+    color: #999;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+        .brand {
+            color: #6366f1;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .availability {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 12px;
+        }
+
+        .icon-delivery {
+            width: 50px;
+            height: 50px;
+            background-color: #ff1744;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .availability-info {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .availability-info strong {
+            color: #1a1a1a;
+            font-size: 14px;
+        }
+
+        .availability-info span {
+            color: #666;
+            font-size: 13px;
+        }
