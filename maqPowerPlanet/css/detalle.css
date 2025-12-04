@@ -70,7 +70,7 @@ header nav{
     align-items: center; /* alineacion en eje secundario */
 }
 header nav a{
-    display: none;
+    display: flex;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -105,7 +105,7 @@ main {
 
 }
 
-main nav#inicio{
+main nav#breadcrumb{
     border: 1px solid black;
     flex-basis: 100% ;
     order:1;
@@ -117,7 +117,7 @@ main nav#inicio{
     margin-bottom: 30px;
 }
 
-main figure#galeria{
+main figure#thumbnails{
     border: 1px solid black;
     flex-basis: 15%;
     order: 2;
@@ -127,9 +127,9 @@ main figure#galeria{
     gap: 10px
 }
 main figure img {
-    width: 30%; 
+    width: 50%; 
     object-fit: cover; 
-    width: 80px;
+    /* width: 80px;
     height: 80px;
     border: 2px solid #e0e0e0;
     border-radius: 8px;
@@ -137,9 +137,9 @@ main figure img {
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
-main figure#imagen{
+main figure#portada{
     border: 1px solid black;
     flex-basis: 35%;
     order:3;

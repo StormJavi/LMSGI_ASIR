@@ -5,77 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PowerPlanet</title>
     <link rel="stylesheet" href="css/detalle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
     <header>
-        <div id ="menu">
+        <div id="menu">
             <i class="fa-solid fa-bars"></i>
         </div>
-            <figure><img src="img/logo2.png" alt="logo"></figure>
-            <form>
-                <input type="search" placeholder="Buscar...">
-            </form>
-
-            <nav>
-                <a href="#">Ofertas Limitadas</a>
-                <a href="#">¡Contáctanos!</a>
-                <a href="#">ES</a>
-            </nav>
-            <div id="carrito">
-                <a href=""><i class="fa-solid fa-user"></i></a>
-                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
-    </header>
-    <main>
-        <nav id="inicio">
-            <a href="#"><i class="fa-solid fa-house"></i></a>
-            >
-            <a href="#">TV y video</a>
-            >
-            <a href="#">Televisores Smart TV</a>
-            >
-            <a href="#">Televisores Xiaomi</a>
+        <figure>
+            <img src="img/logo2.png" alt="Logo PowerPlanet">    
+        </figure>
+        <form>
+            <input type="search" placeholder="Buscar...">
+        </form>
+        <nav>
+            <a href="#">Ofertas Limitadas</a>
+            <a href="#">Contactanos</a>
+            <a href="#">ES</a>
         </nav>
-        
-        <figure class="galeria">
-            <img src="img/productos/television.jpg" alt="Vista 1">
-            <img src="img/productos/television_2.jpg" alt="Vista 2">
-            <img src="img/productos/television_3.jpg" alt="Vista 3">
-            <img src="img/productos/television_4.jpg" alt="Vista 4">
-            <img src="img/productos/energia_television.jpg" alt="Vista 4">
+        <div id="carrito"> 
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </header> 
+    <main>
+        <nav id="breadcrumb">
+            <a href=#>
+                <i class="fa-solid fa-house"></i>
+            </a> &gt;  
+            <a href="http://127.0.0.1:5501/DAW/DFlex/1-PowerPlanet/index.html">Smartphones</a> &gt;
+            <a href="#">Moviles</a> &gt;
+            <a href="#">One Plus 13</a>
+        </nav>
+       
+        <figure id="thumbnails">
+            <img src="https://www.powerplanetonline.com/cdnassets/cubot_kingkong_x_12gb_512gb_negro_01_l.jpg" alt="Vista 1">
+            <img src="https://www.powerplanetonline.com/cdnassets/cubot_kingkong_x_12gb_256gb_negro_02_ad_l.jpg" alt="Vista 2">
+            <img src="https://www.powerplanetonline.com/cdnassets/cubot_kingkong_x_12gb_256gb_negro_03_ad_l.jpg" alt="Vista 3">
+            <img src="https://www.powerplanetonline.com/cdnassets/cubot_kingkong_x_12gb_256gb_negro_04_ad_l.jpg" alt="Vista 4">
+            <img src="https://www.powerplanetonline.com/cdnassets/cubot_kingkong_x_12gb_256gb_negro_05_ad_l.jpg" alt="Vista 4">
+            
         </figure>
         <figure id="portada">
             <div class="badges">
                 <div class="badge-friday">FRESH FRIDAY</div>
                 <div class="badge-envio">Envío gratis</div>
             </div>
-            <img src="img/productos/television.jpg">
+            <img  id="foto"
+                  src="https://www.powerplanetonline.com/cdnassets/cubot_kingkong_x_12gb_512gb_negro_01_l.jpg" alt="Cubot KingKong X">
         </figure>
         <article id="caracteristicas">
-            <h1 class="title">Xiaomi TV A 43 2025 4K UHD Dolby Audio - Televisión con Google TV</h1>
+            <h1 id="nombre">Cubot KingKong X 16GB/256GB Negro</h1>
             <div class="valoraciones">
                 <span class="star">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
                 </span>
-                <span class="nvaloraciones">191</span>
-                <span class="comentarios">(133 opiniones) ¡Opina!</span>
+                <span class="nvaloraciones">5</span>
+                <span class="comentarios">(3 opiniones)</span>
             </div>
             <div class="price-section">
-                <span class="discount-badge">-43%</span>
-                <span class="current-price">199,90€</span>
+                <span id="dto" class="descuento">-35%</span>
+                <span class="pvr">284,99€</span>
             </div>
             <div>
-                <p class="recommended-price">Precio recomendado: 349,00€</p>
+                <p class="pvp">Precio recomendado: 439,00€</p>
                 <p style="color: #999; font-size: 13px;">Los precios incluyen IVA</p>
             </div>
 
-            <a href="#" class="brand">XIAOMI</a>
-            <p style="color: #666; font-size: 13px;">REF: ELA5493EU</p>
+            <a href="#" class="brand">CUBOT</a>
+            <p style="color: #666; font-size: 13px;">REF: CUBOT-KINGKONGX-16GB-256GB</p>
 
             <div class="availability">
                 <div class="icon-delivery">🚚</div>
@@ -87,9 +88,10 @@
                 </div>
             </div>
         </article>
+     
+       
     </main>
 </body>
-</html>
 
 <script>
     
@@ -120,7 +122,7 @@
 
             // **** galeria dinamica ****
             
-            const galeria = document.getElementById('inicio');
+            const galeria = document.getElementById('thumbnails');
             galeria.innerHTML='';
             producto.galeria.forEach(img => {
                 let imagen = document.createElement('img');
